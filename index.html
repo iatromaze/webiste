@@ -1,0 +1,481 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script type="text/javascript" src="js/main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro:200" rel="stylesheet">
+<script type="text/javascript">
+</script>
+
+<style type="text/css">
+
+h1, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 , h2{   
+  font-weight: 10;
+  color: #007bff
+}
+small {
+  font-family: 'poppins', sans-serif;
+  font-size: 1em;
+}
+.panel2 {
+    font-family: 'Source Sans Pro';
+    font-size: 1.3em;
+    position: fixed;
+    z-index:auto;
+    background: #eee0;
+    top: 10%;
+    margin-left: 5%; 
+     margin-right: 5%;
+    /* padding: 20px; */
+    /* border-radius: 4px; */
+}
+label{
+    font-family: 'poppins', sans-serif
+}
+.heading1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.description {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    font-weight: 10;
+}
+.description2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.3em;
+    text-align: left;
+}
+@media only screen and (max-width:900px){
+.navsmall{
+    background-color: black
+}
+
+}
+
+@font-face {
+    font-family: "logo";
+    src: url(font/nasalization.ttf) format("truetype");
+}
+
+a , btn {
+    cursor: pointer;
+}
+
+</style>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style2.css">
+<title style="font-family: logo">IATROMAZE</title>
+</head>
+<body>
+
+    
+       <!-- ----------------------------------------------------------------------------------------------------------NAVBAR-- -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top description2" id = "nav2" style="background-color: #ffffff00; color: white">
+                <h1 class="navbar-brand logo"  style="color: white;font-family: logo; font-size: 6em">IATROMAZE</h1>
+                <button style="color: white" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon" style="background-color: #f1f1f1; 
+                  "></span>
+                </button>
+              
+                <div class="collapse navbar-collapse navsmall" id="navbarSupportedContent" style="color: white;" align="center">
+                        <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    
+                                </li>
+                              </ul>
+                            <span class="navbar-text" style="   margin-right: 10%;">
+                              <ul class="nav navbar-nav navbar-right">
+                                  <li class="nav-item ">
+                                    <a class="nav-link btn" id="onebtn" style="color: white;">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link btn" id="twobtn" style="color: white;">Why US</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link btn" id="fourbtn" style="color: white;">Reviews</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn" id="sixbtn" style="color: white;">Our Team</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link btn" id="sevenbtn" style="color: white;">More</a>
+                                      </li>
+                                </ul> 
+                </div>
+              </nav>
+ 
+   
+    <!-- ----------------------------------------------------------------------------------------------------------NAVBAR-- -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"  id="nav1" style="background-color: white; box-shadow: 1px 2px 2px #007bff;">
+           <h1 class="navbar-brand logo"  style="color: #007bff;font-family: logo; font-size: 1.8em">IATROMAZE</h1>
+                <button style="color: white" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon" style="background-color: #f1f1f1; "></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent2" style="color: white; " align="center">
+                        <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    
+                                </li>
+                              </ul>
+                            <span class="navbar-text"  style="  margin-right: 10%;">
+                              <ul class="nav navbar-nav navbar-right">
+                                  <li class="nav-item ">
+                                    <a class="nav-link btn" id="onebtn2" style="color:#007bff;">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link btn" id="twobtn2" style="color: #007bff;">Why US</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link btn" id="fourbtn2" style="color: #007bff;">Reviews</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn" id="sixbtn2" style="color: #007bff;">Our Team</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link btn" id="sevenbtn2" style="color: #007bff;">More</a>
+                                      </li>
+                                </ul> 
+                </div>
+          </nav>
+
+       
+    <!-- -----------------------------------------------------------------------------------------------------------------Poster----- -->
+    <div id="particles-js" class="" style="background: #007bff;"><canvas class="particles-js-canvas-el" width="1064" height="756" style="width: 100%; height: 100%;"></canvas></div>
+    <div class="banner-content" style="    padding: 130px 0 180px;">
+        <div class="container">
+          <h1 class="heading1">Connecting the Whole Healthcare Together</h1>
+          <br><br><br>
+          <p class="description">"Our mission is to empower the Whole Healthcare Industry and bring them together in an enviornment where everyone can work in much better and efficient way for a better future."</p>
+        </div>
+    </div>
+  </div>
+      <!-- -----------------------------------------------------------------------------------------------------------------WHY DOC2DOC----- -->
+      <diV  id="whyus" style="margin-top: 1%" align="center">
+        <br><br>
+        <br><br>
+      <label><h1>Why IATROMAZE ?</h1></label><br>
+      <small>There are so many Reasons</small>
+			<div style="margin:7%">
+          <ul class="nav nav-tabs" id="myTab" role="tablist" align="center" style="color:#12482f">
+              <li class="nav-item">
+                <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true">Family</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false">Patient</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false">Reallocation</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" id="four-tab" data-toggle="tab" href="#four" role="tab" aria-controls="four" aria-selected="false">Help</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="five-tab" data-toggle="tab" href="#five" role="tab" aria-controls="five" aria-selected="false">Sharing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="six-tab" data-toggle="tab" href="#six" role="tab" aria-controls="six" aria-selected="false">CMEs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="seven-tab" data-toggle="tab" href="#seven" role="tab" aria-controls="seven" aria-selected="false">Jobs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="eight-tab" data-toggle="tab" href="#eight" role="tab" aria-controls="eight" aria-selected="false">Updated</a>
+                </li>
+            </ul>
+  
+  
+            <div class="tab-content" id="myTabContent" align="center">
+              <br><br>
+              <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <img class="rounded-circle" src="images/knowother.png" alt="Generic placeholder image" width="150" height="150">
+                              <h3>Make a huge doctor family </h3>
+                              <small>You can choose your family!</small>
+                          </div>
+                          <div class="col-lg-6">
+                              <br><br><br><br>
+                              <small>"In Doc-a-Doc you can connect with peers and colleagues 
+                                  Share your professional and personal life 
+                                  In Doc-a-Doc you can connect with peers and colleagues 
+                                  Share your professional and personal life."
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <img class="rounded-circle" src="images/knowother.png" alt="Generic placeholder image" width="150" height="150">
+                              <h3>Find a specialist for your patient </h3>
+                              <small>Because every patient is important!
+                              </small>
+                          </div>
+                          <div class="col-lg-6"> 
+                              <br><br><br><br>
+                              <small>"When you think that your patient needs a specialist to treat him/her
+                                  Referring your patient to a specialist of your trust is now just a click away."                             
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <img class="rounded-circle" src="images/knowother.png" alt="Generic placeholder image" width="150" height="150">
+                              <h3>Moving to another city?Hunting for a job? </h3>
+                              <small>Job notiﬁcations at your door-step</small>
+                          </div>
+                          <div class="col-lg-6">
+                                  <br><br><br><br>
+                              <small>"We have .......registered hospitals and provide a list of vacancies available over a range of specialities
+                                  Apply with your resume now."
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <img class="rounded-circle" src="images/knowother.png" alt="Generic placeholder image" width="150" height="150">
+                              <h3>Have a diﬃcult case?</h3>
+                              <small>Seek an expert opinion?
+                              </small>
+                          </div>
+                          <div class="col-lg-6">
+                                  <br><br><br><br>
+                              <small>"Why post pond your consultations to another day, when the expert can guide you today
+                                  Connect with the expert in your city now to provide a quality health care."                             
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="five" role="tabpanel" aria-labelledby="five-tab">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <img class="rounded-circle" src="images/knowother.png" alt="Generic placeholder image" width="150" height="150">
+                              <h3>Knowledge is for everyone and it grows with sharing </h3>
+                              <small>Share your research
+                              </small>
+                          </div>
+                          <div class="col-lg-6">
+                                  <br><br><br><br>
+                              <small>
+                                "Feel free to share case histories/pictures with your peers. Get their views on your case."                             
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="six" role="tabpanel" aria-labelledby="six-tab">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <img class="rounded-circle" src="images/knowother.png" alt="Generic placeholder image" width="150" height="150">
+                              <h3>Attending a CME? </h3>
+                              <small>Everything right here</small>
+                          </div>
+                          <div class="col-lg-6">
+                                  <br><br><br><br>
+                              <small>"Last minute rush? Forgotten to register for a CME/conference?
+                                  Register through the app and get ....% oﬀ on the registration fee."
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="seven" role="tabpanel" aria-labelledby="seven-tab">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <img class="rounded-circle" src="images/knowother.png" alt="Generic placeholder image" width="150" height="150">
+                              <h3>Have a job to oﬀer?  </h3>
+                              <small>Find best people to work with
+                              </small>
+                          </div>
+                          <div class="col-lg-6">
+                                  <br><br><br><br>
+                              <small>
+                                  "Register in the app and post the details of the job you have got to oﬀer."                           
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="eight" role="tabpanel" aria-labelledby="eight-tab">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <img class="rounded-circle" src="images/knowother.png" alt="Generic placeholder image" width="150" height="150">
+                              <h3>Stay updated! </h3>
+                              <small>"Whatchout what is happenning around you."</small>
+                          </div>
+                          <div class="col-lg-6">
+                                  <br><br><br><br>
+                              <small>"Get the latest news/updates on new medicines and vaccines on the app." 
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+            </div>
+  
+          </div>
+        </diV>
+    
+     <!-- ------------------------------------------------------------------------------------------------------------Reviews -->
+    <div id="Reviews" align="center">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Reviews</h1>
+        <small>So what the best think of us</small>
+        <br><br>
+        <div class="container" style="word-wrap: break-word;">
+          <div class="row">
+            <div class="col-lg-4" id="1pic" style="margin-top:3%">
+              <img class="rounded-circle" src="images/coworker.png" alt="Generic placeholder image" width="100" height="100">
+              <h5>Dr. Dev Vrat Kalia</h5>
+              <small>
+                  This platform is extremely helpful. A social media platform for doctors is exactly what was needed in the medical domain. Now doctors could share their specialisations ,work ,experience and research with 
+                  everyone .This certainly has made recruiting of eligible and deserving candidates more easier .
+                  This has made my professional experience much easier and beneficial .MUST TRY . HIGHLY RECOMMENDED.
+              </small>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4" id="2pic" style="margin-top:3%">
+              <img class="rounded-circle" src="images/coworker.png" alt="Generic placeholder image" width="100" height="100">
+              <h5>Dr. Hardik Khurana</h5>
+              <small>It is a great platform where I can share my research and work and get to know what my fellow doctors are working on.
+                It helped me a lot to get connected with great and skillful proffessionals of healthcare Industry.
+                It is a great place where one can keep updated with latest market research and trends in the healthcare field.
+                It is very helpfull for me to keep up my knowladge upto the latest trends.
+              </small>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4" id="3pic" style="margin-top:3%">
+              <img class="rounded-circle" src="images/coworker.png" alt="Generic placeholder image" width="100" height="100">
+              <h5>Dr. Shekhar Singh</h5>
+              <small>I've been using this platform daily and I found it really usefull.
+                 I executes all my proffessional stuff on this platform.
+                It really helped me in my career and made my job much easier.
+              I easily found all the people I need and gets help from others in my day to day tasks of my proffessional career.
+            It is much needed platform for healthcare Industry.</small>
+              </div>
+          </div><!-- /.row -->
+        </div>
+    </div>
+    <br><br>
+   
+     <!-- ------------------------------------------------------------------------------------------------------------Team-->
+    <div id="team" align="center">
+        <br><br><br><br>
+          <h1>Our Team</h1>
+          <small>The Perfectionists</small><br><br><br>
+          <br>
+         
+          <div class="container" >
+              <div class="row" id="partner">
+                <div class="col-lg-3" id="1pic" style="margin-top:3%">
+                  <img class="rounded-circle" src="images/sachin.jpg" alt="Generic placeholder image" width="150" height="150">
+                  <h3>Sachin Arora</h3>
+                  <small>"Founder and CEO"</small>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-3" id="2pic" style="margin-top:3%">
+                  <img class="rounded-circle" src="images/shekhar.jpg" alt="Generic placeholder image" width="150" height="150">
+                  <h3>Shekhar Singh</h3>
+                  <small>"Chief Architect"</small>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-3" id="3pic" style="margin-top:3%">
+                  <img class="rounded-circle" src="images/hardik.jpg" alt="Generic placeholder image" width="150" height="150">
+                  <h3>Hardik Khurana</h3>
+                  <small>"Chief Developer"</small>
+                  </div>
+                <div class="col-lg-3" id="4pic" style="margin-top:3%">
+                  <img class="rounded-circle" src="images/dev.jpg" alt="Generic placeholder image" width="150" height="150">
+                  <h3>Dev Vrat Kalia</h3>
+                  <small>"Chief UI and UX developer"</small>
+                  </div><!-- /.col-lg-4 -->
+              </div><!-- /.row -->
+            </div>
+    </div>
+    <br>
+    <br>
+    <br><br><br><br>
+   
+   
+     <!-- ------------------------------------------------------------------------------------------------------------Footer -->
+<div style="background-color: #131415; padding-top:2% ; color: white" id="more" align="center">
+        <br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+          <br><br><br><br>
+          <h1 style="font-family: logo; font-size: 3.5em">IATROMAZE</h1>
+          </div>
+          <div class="col-lg-4">
+                <br><br>
+            <h3>Contact Us:</h3>
+              <h6>Janakpuri, New Delhi (India)</h6>
+              <h6> no: 8439495912</h6>
+              <h6>Careers</h6>
+              <div >
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+              </div>
+      <div class="col-lg-4">
+            <br><br><br><br>
+          <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Username">
+                </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+              </div>
+              <div class="form-group" style="">
+                <textarea type="text" class="form-control" id="inputAddress2" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-primary">Send</button>
+            </form>
+          </div>
+    </div>
+</div>
+<br><br><br><br>
+<hr style="background-color: white; margin-right:10%; margin-left: 10%">
+<label style="color: white">IATROMAZE corporation copyright 2018</label>
+</div>
+<!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
+<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<!-- <script src='https://threejs.org/examples/js/libs/stats.min.js'></script> -->
+<script  src="js/index.js"></script>
+</body>
+</html>
